@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="form">
+        <form action="connect_login.php" method="POST" enctype="multipart/form-data">
+            <h1>Inicia sesión</h1><br>
+
+            <input type="text" name="nombre" maxlength="60" placeholder="Nombre completo">
+            <input type="number" name="numero_reloj" placeholder="Numero de Usuario">
+            <br><br>
+            <button type="submit" class="send-button" name="enviar" value="Guardar">Enviar</button>
+            <div class="options">
+                <a href="signup.html" id="signup">Crear una nueva cuenta</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

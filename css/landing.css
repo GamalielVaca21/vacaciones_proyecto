@@ -1,0 +1,55 @@
+body {
+    background-color: #f8f9fa;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-top: 40px;
+    color: #343a40;
+  }
+
+  .carousel-inner img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+
+  .carousel {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .btn-group {
+    margin-top: 30px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+  }
+
+  .btn-login {
+    background-color: #004085;
+    color: white;
+  }
+  
+  .btn-signup {
+    background-color: #004085;
+    color: white;
+  }
+
+  .btn-login:hover {
+    background-color: #022347;
+    color: white;
+  }
+  
+  .btn-signup:hover {
+    background-color: #022347;
+    color: white;
+  }
+

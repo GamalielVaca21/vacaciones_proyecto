@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear cuenta</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <div class="form">
+        <form action="connectLogin.php" method="POST" enctype="multipart/form-data">
+            <h1>Informacion del empleado</h1><br>
+
+            <input type="number" name="turno" placeholder="Turno (1/2)">
+            <input type="number" name="numero_reloj" placeholder="Numero de Usuario">
+            <input type="text" name="nombre" maxlength="60" placeholder="Nombre completo">
+            <input type="date" name="fecha_ingreso" placeholder="Fecha de ingreso">
+            <input type="number" name="antiguedad" placeholder="Antigüedad">
+            <input type="text" name="puesto" maxlength="36" placeholder="Puesto">
+            <input type="text" name="area" maxlength="30" placeholder="Area o departamento">
+            <input type="text" name="fecha_nacimiento" maxlength="8" placeholder="Fecha de nacimieto (dd-mm-yy)">
+            <input type="text" name="edad" maxlength="3" placeholder="Edad">
+            <input type="text" name="numero_telefono" maxlength="10" placeholder="Numero telefonico">
+
+            <br><br>
+            <button type="submit" class="send-button" name="enviar" value="Guardar">Enviar</button>
+            <div class="options">
+                <a href="login.html" id="signup">Volver</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

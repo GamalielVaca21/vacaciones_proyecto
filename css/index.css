@@ -1,0 +1,77 @@
+/* css/index.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004080;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+.titulo {
+    font-size: 28px;
+    margin: 0;
+}
+
+#logo {
+    height: 60px;
+}
+
+.info {
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.acciones {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.send-button {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.send-button:hover {
+    background-color: #005bb5;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #eeeeee;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.footer h2 {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
